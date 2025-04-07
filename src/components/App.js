@@ -18,7 +18,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <h2>Search Movie</h2>
-        <input placeholder="search movie" onChange={(e)=>setinputValue(e.target.value)}></input>
+       <form> <input placeholder="search movie" onChange={(e)=>setinputValue(e.target.value)}></input></form>
         <button onClick={movieList}>Search</button>
          {
           movies ? movies.map((movie,index)=>(
