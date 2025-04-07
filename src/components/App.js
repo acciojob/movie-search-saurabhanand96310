@@ -24,7 +24,7 @@ const App = () => {
           movies ? movies.map((movie,index)=>(
             <ul key={index}>
               
-              <li style={{gap:"10px",margin:""}}>{movie.Title}</li>
+              <li style={{gap:"10px",margin:"5px"}}>{movie.Title}</li>
               <img src={movie.Poster}/>
               </ul>
           )):(
